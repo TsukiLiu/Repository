@@ -1,0 +1,25 @@
+# NAME: Adobe Firefly Unlock
+# AUTHOR: Gemini
+# REPO: Local
+# UPDATED: 2025-12-16
+# DESCRIPTION: 针对 Adobe Photoshop 生成式填充 (Firefly) 及 AI 服务的解锁规则
+
+# > Firefly AI Specific (AI 核心服务)
+DOMAIN-SUFFIX,firefly.adobe.com
+DOMAIN-SUFFIX,firefly.adobe.io
+DOMAIN-SUFFIX,firefly-ps.adobe.io
+DOMAIN-SUFFIX,sensei.adobe.io
+DOMAIN-KEYWORD,firefly
+
+# > Adobe Auth & Identity (账号与授权，必须走代理以伪装地区)
+DOMAIN-SUFFIX,adobe-identity.com
+DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobe.com
+
+# > Creative Cloud & Assets (云同步与素材，防止素材库加载失败)
+DOMAIN-SUFFIX,assets.adobe.com
+DOMAIN-SUFFIX,cc-api-data.adobe.io
+DOMAIN-SUFFIX,cclibraries-defaults-cdn.adobe.com
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,myportfolio.com
