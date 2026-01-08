@@ -1,4 +1,4 @@
-# NAME: DNS遗漏
+# NAME: 直连服务
 # AUTHOR: Gemini
 # REPO: Local
 # UPDATED: 2025-12-16
@@ -10,8 +10,3 @@ DOMAIN-SUFFIX,api-flowercloud.com,Direct
 
 # > DMIT服务
 DOMAIN-SUFFIX,tsuki.sbs,Direct
-
-# > 设计相关
-DOMAIN-SUFFIX,huaban.com,Direct
-DOMAIN-SUFFIX,hbimg.net,Direct
-DOMAIN-SUFFIX,huabanimg.com,Direct
