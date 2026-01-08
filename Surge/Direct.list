@@ -1,4 +1,17 @@
+# NAME: DNS遗漏
+# AUTHOR: Gemini
+# REPO: Local
+# UPDATED: 2025-12-16
+
+# > 机场直连
 DOMAIN-SUFFIX,dlercloud.com,Direct
 DOMAIN-SUFFIX,kurqq9.com,Direct
-DOMAIN-SUFFIX,tsuki.sbs,Direct
 DOMAIN-SUFFIX,api-flowercloud.com,Direct
+
+# > DMIT服务
+DOMAIN-SUFFIX,tsuki.sbs,Direct
+
+# > 设计相关
+DOMAIN-SUFFIX,huaban.com,Direct
+DOMAIN-SUFFIX,hbimg.net,Direct
+DOMAIN-SUFFIX,huabanimg.com,Direct
