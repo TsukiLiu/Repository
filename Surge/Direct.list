@@ -14,3 +14,7 @@ DOMAIN-SUFFIX,dmit.io,Direct
 
 # > DNS服务
 DOMAIN-SUFFIX,dnshe.com,Direct
+
+
+# > Adobe
+DOMAIN-SUFFIX,appstorrent.ru,Direct
