@@ -10,7 +10,7 @@ return function (proxies) {
   // 第一遍扫描：找出普通节点的最大序号
   proxies.forEach(p => {
     // 如果是 Premium 节点，先跳过，不参与统计
-    if (p.name.includes('[Premium]')) return;
+    if (p.name.includes('[Flower]')) return;
 
     const match = p.name.match(regexNormal);
     if (match) {
@@ -29,7 +29,7 @@ return function (proxies) {
 
   return proxies.map(p => {
     // 只处理带 [Premium] 的节点
-    if (!p.name.includes('[Premium]')) return p;
+    if (!p.name.includes('[Flower]')) return p;
 
     // 提取地区名 (例如 "Hong Kong 21 [Premium]")
     // 逻辑：找到最后一个数字之前的所有文本作为地区名
@@ -52,7 +52,7 @@ return function (proxies) {
       const newNumStr = newNum < 10 ? "0" + newNum : "" + newNum;
       
       // 修改名字
-      p.name = `${region} ${newNumStr} [Premium]`;
+      p.name = `${region} ${newNumStr} [Flower]`;
     }
     return p;
   });
